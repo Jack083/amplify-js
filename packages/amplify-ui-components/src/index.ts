@@ -2,7 +2,7 @@ export * from './common/types/auth-types';
 export * from './common/types/ui-types';
 export * from './common/types/storage-types';
 export { Translations } from './common/Translations';
-export { onAuthUIStateChange } from './common/helpers';
+export { onAuthUIStateChange, dispatchAuthStateChangeEvent } from './common/helpers';
 export { AUTH_CHANNEL, UI_AUTH_CHANNEL, TOAST_AUTH_ERROR_EVENT, AUTH_STATE_CHANGE_EVENT } from './common/constants';
 export * from './components';
 export * from './components/amplify-auth-fields/amplify-auth-fields-interface';
